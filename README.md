@@ -43,7 +43,7 @@ Launched in the background within the notebook so the same cell/session can quer
 import subprocess, time, requests
 
 MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct"   # sized for T4 VRAM
-VLLM_PORT = 8000
+VLLM_PORT = 8001
 
 vllm_process = subprocess.Popen([
     "python", "-m", "vllm.entrypoints.openai.api_server",
@@ -56,7 +56,7 @@ vllm_process = subprocess.Popen([
 
 ### 4. Ingest documents into ChromaDB
 
-```python
+
 import chromadb
 from sentence_transformers import SentenceTransformer
 
