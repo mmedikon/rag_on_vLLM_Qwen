@@ -1,4 +1,4 @@
-# RAG on vLLM with Qwen + ChromaDB (Google Colab, T4 GPU)
+# RAG using vLLM with Qwen + ChromaDB (Google Colab, T4 GPU)
 
 A Retrieval-Augmented Generation (RAG) system that serves a **Qwen** model through **vLLM** for fast inference, using **ChromaDB** as a persistent vector store — designed to run end-to-end on a free/standard **Google Colab T4 GPU** instance.
 
